@@ -22,7 +22,7 @@ An express note taking app. I was given the templates and frontend to develop by
 
 ## Visuals
 
-![NoteTaker]()
+![NoteTaker](https://github.com/ASwartz14/Note_Taker/blob/master/public/assets/ezgif.com-gif-maker%20(3).gif)
 
 ## Installation
 
