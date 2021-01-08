@@ -7,7 +7,7 @@ module.exports = function (app) {
   app.get("/api/notes", function (req, res) {
     return res.json(notes);
   });
-
+// Posts new notes and uses npm nanoid to give each note a short id.
   app.post("/api/notes", function (req, res) {
     const notesdb = notes;
     const newNote = {
@@ -22,7 +22,7 @@ module.exports = function (app) {
       console.log(notesdb);
     });
   });
-
+// Finds note by nanoid and deletes appropriate note.
   app.delete("/api/notes/:id", function (req, res) {
     const notesdb = notes;
     const deleteNote = notesdb.filter((note) => note.id === req.params.id);
