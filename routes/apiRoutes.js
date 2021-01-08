@@ -1,5 +1,5 @@
 const fs = require("fs");
-const notes = require("../db/db.json");
+const notes = require("../Develop/db/db.json");
 const nanoID = require("nanoid").nanoid;
 
 module.exports = function (app) {
